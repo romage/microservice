@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projects\\test\\test33\\PlatformService\\PlatformService.csproj": {}
+    "C:\\Projects\\test\\test33\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "c:\\Projects\\test\\test33\\PlatformService\\PlatformService.csproj": {
+    "C:\\Projects\\test\\test33\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projects\\test\\test33\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "C:\\Projects\\test\\test33\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "c:\\Projects\\test\\test33\\PlatformService\\PlatformService.csproj",
+        "projectPath": "C:\\Projects\\test\\test33\\PlatformService\\PlatformService.csproj",
         "packagesPath": "C:\\Users\\arome\\.nuget\\packages\\",
-        "outputPath": "c:\\Projects\\test\\test33\\PlatformService\\obj\\",
+        "outputPath": "C:\\Projects\\test\\test33\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",

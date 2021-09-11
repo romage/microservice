@@ -65,6 +65,9 @@ https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjecti
 > dotnet add package Microsoft.EntityFrameworkCore.InMemory
 
 
+## Adding HttpClient https://www.youtube.com/watch?v=DgVjEo3OGBI&t=14121s
+
+
 
 
 
