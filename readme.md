@@ -56,6 +56,16 @@ K8S = Kubernetes
 
 ## Part 4 - Starting our 2nd Service https://www.youtube.com/watch?v=DgVjEo3OGBI&t=12301s
 
+> dotnet add webapi -n CommandsService
+> cd CommandsService
+https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection/
+> dotnet add package AutoMapper.Extensions.Microsoft.DependencyInjection
+> dotnet add package Microsoft.EntityFrameworkCore
+> dotnet add package Microsoft.EntityFrameworkCore.Design
+> dotnet add package Microsoft.EntityFrameworkCore.InMemory
+
+
+
 
 
 
