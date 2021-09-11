@@ -46,8 +46,16 @@ Pods >
 ## Deploy platform service (kubernetes) https://www.youtube.com/watch?v=DgVjEo3OGBI&t=10720s
 
 K8S = Kubernetes
+(from within the k8s folder command line...)
 > kubectl version
 > kubectl apply -f platforms-depl.yaml
+> kubectl get deployments
+> kubectl get pods
+> kubects delete deployment platforms-depl
+> kubects get services
+
+## Part 4 - Starting our 2nd Service https://www.youtube.com/watch?v=DgVjEo3OGBI&t=12301s
+
 
 
 
