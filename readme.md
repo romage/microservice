@@ -13,6 +13,8 @@ https://github.com/binarythistle/S04E03---.NET-Microservices-Course-
 
 ## pushing to docker hub https://www.youtube.com/watch?v=DgVjEo3OGBI&t=9449s
 
+> docker build -t romage/platformservice .
+
 https://github.com/romage/microservice
 
 https://hub.docker.com/
@@ -66,6 +68,13 @@ https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjecti
 
 
 ## Adding HttpClient https://www.youtube.com/watch?v=DgVjEo3OGBI&t=14121s
+
+## Deploying Services to Kubernetes https://www.youtube.com/watch?v=DgVjEo3OGBI&t=15574s
+
+
+> docker build -t romage/commandservice .
+> docker push romage/commandservice 
+
 
 
 
