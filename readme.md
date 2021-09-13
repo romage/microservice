@@ -76,9 +76,41 @@ https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjecti
 > docker push romage/commandservice 
 
 
+> kubectl apply -f platforms-depl.yaml
+> kubectl get services
+> kubectl get deployments
+
+## Adding an API Gateway https://www.youtube.com/watch?v=DgVjEo3OGBI&t=17095s
 
 
+> kubectl rollout restart deployment platforms-dep
+> kubectl apply -f commands-depl.yaml
+> kubectl rollout restart deployment commands-dep
 
+
+https://github.com/kubernetes/ingress-nginx
+> kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.0.0/deploy/static/provider/cloud/deploy.yaml
+
+> kubectl get namespaces
+> kubectl get pods --namespace=ingress-ng
+> kubectl get services
+
+
+update hosts file to include acme.com (ingress host address)
+127.0.0.1 acme.com
+
+> kubectl apply -f ingress-srv.yaml
+> kubectl rollout restart deployment ingress-srv.yaml
+
+
+> kubectl delete deployments ingress-nginx-controller --namespace=ingress-nginx
+
+## Part 5 - Startign with Sql Server https://www.youtube.com/watch?v=DgVjEo3OGBI&t=18432s
+> kubectl get storageclass
+> kubectl get pvc 
+> kubectl apply -f local-pvc.yaml
+
+## Adding a Kubernetes Secret https://www.youtube.com/watch?v=DgVjEo3OGBI&t=18754s
 
 
 

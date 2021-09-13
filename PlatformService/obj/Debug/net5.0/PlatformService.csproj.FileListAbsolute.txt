@@ -6,7 +6,6 @@ C:\Projects\test\test33\PlatformService\obj\Debug\net5.0\PlatformService.csproj.
 C:\Projects\test\test33\PlatformService\obj\Debug\net5.0\PlatformService.MvcApplicationPartsAssemblyInfo.cs
 C:\Projects\test\test33\PlatformService\obj\Debug\net5.0\PlatformService.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\appsettings.Development.json
-C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\appsettings.json
 C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\PlatformService.exe
 C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\PlatformService.deps.json
 C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\PlatformService.runtimeconfig.json
