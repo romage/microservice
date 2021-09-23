@@ -111,6 +111,33 @@ update hosts file to include acme.com (ingress host address)
 > kubectl apply -f local-pvc.yaml
 
 ## Adding a Kubernetes Secret https://www.youtube.com/watch?v=DgVjEo3OGBI&t=18754s
+> kubectl create secret generic mssql --from-literal=SA_PASSWO secret generic mssql --from-liRD="pa55w0rd!"
+
+> kubectl apply -f mssql-plat-depl.yaml
+> kubectl get services
+> kubectl get pods
+
+## Accessing via ssms https://www.youtube.com/watch?v=DgVjEo3OGBI&t=19831s
+
+should now be able to connect using destop sql server
+note the server name uses a comma (not a colon) ...
+Server name: localhost, 1433
+Authentication: SQL Server Authentication
+Login: sa
+Password (as specified in the secrets store)
 
 
+> dotnet ef migrations add initialmigation
+if ef is not reconised, this was split out in dotnet 3, and can be included globally by:
+> dotnet tool install --global dotnet-ef
 
+
+## Updating the platform service to use sql server https://www.youtube.com/watch?v=DgVjEo3OGBI&t=19986s
+
+
+## Part 6 - multi-resource api https://www.youtube.com/watch?v=DgVjEo3OGBI&t=21962s
+
+## https://www.youtube.com/watch?v=DgVjEo3OGBI&t=22171s
+## https://www.youtube.com/watch?v=DgVjEo3OGBI&t=24326s
+## Part 7 MessageQ and Rabbit MQ https://www.youtube.com/watch?v=DgVjEo3OGBI&t=26449s
+## Rabbit MQ to Kubernetes https://www.youtube.com/watch?v=DgVjEo3OGBI&t=26935s
