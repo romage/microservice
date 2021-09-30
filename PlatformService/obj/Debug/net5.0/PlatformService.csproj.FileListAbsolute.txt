@@ -62,3 +62,11 @@ C:\Projects\test\test33\PlatformService\obj\Debug\net5.0\ref\PlatformService.dll
 C:\Projects\test\test33\PlatformService\obj\Debug\net5.0\PlatformService.pdb
 C:\Projects\test\test33\PlatformService\obj\Debug\net5.0\PlatformService.genruntimeconfig.cache
 C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\appsettings.Production.json
+C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\Grpc.AspNetCore.Server.dll
+C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\Grpc.AspNetCore.Server.ClientFactory.dll
+C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\Grpc.Core.Api.dll
+C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\Grpc.Net.Client.dll
+C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\Grpc.Net.ClientFactory.dll
+C:\Projects\test\test33\PlatformService\bin\Debug\net5.0\Grpc.Net.Common.dll

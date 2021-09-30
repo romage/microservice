@@ -3,9 +3,9 @@ https://github.com/binarythistle/S04E03---.NET-Microservices-Course-
 
 ## Data https://www.youtube.com/watch?v=DgVjEo3OGBI&t=3758s
 
-## Data Layer - db prep https://www.youtube.com/watch?v=DgVjEo3OGBI&t=4560s 
+## Data Layer - db prep https://www.youtube.com/watch?v=DgVjEo3OGBI&t=4560s
 
-## Data Layer - DTOs https://www.youtube.com/watch?v=DgVjEo3OGBI&t=5251s 
+## Data Layer - DTOs https://www.youtube.com/watch?v=DgVjEo3OGBI&t=5251s
 
 ## Controller and Actions https://www.youtube.com/watch?v=DgVjEo3OGBI&t=6079s
 
@@ -34,11 +34,11 @@ https://insomnia.rest/download
 
 Kubernetes - Cluster > Node > Pod  > docker container(s)
 Node port
-Cluster IP 
-Ingress Nginx Container 
+Cluster IP
+Ingress Nginx Container
 Persistant volume claim (dbs are not stateless)
-Pods > 
-> Ingress Nginx 
+Pods >
+> Ingress Nginx
 > Command Service
 > Command Service Sql
 > Platform Service
@@ -73,7 +73,7 @@ https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjecti
 
 
 > docker build -t romage/commandservice .
-> docker push romage/commandservice 
+> docker push romage/commandservice
 
 
 > kubectl apply -f platforms-depl.yaml
@@ -85,7 +85,7 @@ https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjecti
 
 > kubectl rollout restart deployment platforms-dep
 > kubectl apply -f commands-depl.yaml
-> kubectl rollout restart deployment commands-dep
+> kubectl rollout restart deployment commands-depl
 
 
 https://github.com/kubernetes/ingress-nginx
@@ -107,7 +107,7 @@ update hosts file to include acme.com (ingress host address)
 
 ## Part 5 - Startign with Sql Server https://www.youtube.com/watch?v=DgVjEo3OGBI&t=18432s
 > kubectl get storageclass
-> kubectl get pvc 
+> kubectl get pvc
 > kubectl apply -f local-pvc.yaml
 
 ## Adding a Kubernetes Secret https://www.youtube.com/watch?v=DgVjEo3OGBI&t=18754s
@@ -141,3 +141,43 @@ if ef is not reconised, this was split out in dotnet 3, and can be included glob
 ## https://www.youtube.com/watch?v=DgVjEo3OGBI&t=24326s
 ## Part 7 MessageQ and Rabbit MQ https://www.youtube.com/watch?v=DgVjEo3OGBI&t=26449s
 ## Rabbit MQ to Kubernetes https://www.youtube.com/watch?v=DgVjEo3OGBI&t=26935s
+
+> dotnet add package RabbitMQ.Client
+
+## Add message bus publisher https://www.youtube.com/watch?v=DgVjEo3OGBI&t=27841s
+## testing our publisher https://www.youtube.com/watch?v=DgVjEo3OGBI&t=29887s
+
+## CommandService ground work https://www.youtube.com/watch?v=DgVjEo3OGBI&t=30319s
+
+## Event Processing https://www.youtube.com/watch?v=DgVjEo3OGBI&t=31006s
+
+## https://www.youtube.com/watch?v=DgVjEo3OGBI&t=31006s
+
+## adding event listener https://www.youtube.com/watch?v=DgVjEo3OGBI&t=32354s
+
+## https://www.youtube.com/watch?v=DgVjEo3OGBI&t=33569s
+
+## Deploying to Kubernetes https://www.youtube.com/watch?v=DgVjEo3OGBI&t=33988s
+
+## gRPC https://www.youtube.com/watch?v=DgVjEo3OGBI&t=34752s
+HTTP2 protocol - binary messages
+google Remote Procedure Call
+very quick
+proto buff / protocol buffer
+
+.proto file definitions
+
+## final kubernetes networking configuration https://www.youtube.com/watch?v=DgVjEo3OGBI&t=35046s
+
+## Adding gPRC Package references
+https://www.youtube.com/watch?v=DgVjEo3OGBI&t=35672s
+> dotnet add package Grpc.AspNetCore
+> dotnet add package gRPC.Tools
+> dotnet add package gRPC.Net.Client
+> dotnet add package gRPC.Net.Protobuf
+
+## Adding a gPRC Client to Commands Service https://www.youtube.com/watch?v=DgVjEo3OGBI&t=37253s
+
+ Install-Package Google.Protobuf
+
+## testing...  https://www.youtube.com/watch?v=DgVjEo3OGBI&t=38885s

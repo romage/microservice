@@ -21,7 +21,7 @@ namespace CommandsService.Controllers
             this._repository = repository;
             this._mapper = mapper;
         }
-        [HttpGet("{commandId}")]
+        [HttpGet()]
         public  ActionResult<IEnumerable<CommandReadDto>> GetCommandsForPlatform(int platformId)
         {
             Console.WriteLine($"--> Commands GetCommands {platformId}");
